@@ -1,5 +1,10 @@
 <html>
-  <head><style>
+  <head>
+  <style>
+  html{
+    scroll-behavior:smooth;
+  }
+  
     nav{
       padding:200px 0;
       background-color: orange;
@@ -7,7 +12,23 @@
       /*vh:viewport height*/
       height:50vh;
       position:fixed;
-      
+      /*border:solid 20px;*/
+      text-align:center;
+    }
+    nav li{
+      list-style:none;
+    }
+    nav li a{
+      text-decoration:none;
+    }
+    nav img{
+      width:150px;
+      border-radius:50%;
+      border:solid blue;
+      border-width:10px;
+    }
+    ul{
+      padding:0;
     }
     main{
       padding-left:200px;
@@ -16,22 +37,35 @@
     body {
       margin:0;
     }
+    section{
+      border:black solid;
+      padding:10px;
+      height:200px;
+    }
   </style></head>
     <body>
       <nav>
+        <img src="https://github.com/701034407-cmyk/701034407-cmyk.github.io/blob/main/silas-baisch-K785Da4A_JA-unsplash.jpg?raw=true">
+        
       <ul>
-        <li>About</li>
-        <li>Experience</li>
-        <li>Education</li>
-        <li>Skills</li>
-        <li>Interest</li>
-        <li>Award</li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Experience">Experience</a></li>
+        <li><a href="#Education">Education</a></li>
+        <li><a href="#Skill">Skills</a></li>
+        <li><a href="#Interest">Interest</a></li>
+        <li><a href="#Award">Award</a></li>
       </ul>
       </nav>
       
      <main>
+       <section id='About'>
        <h1>Mila Wan</h1>
-       <p><a href="mailto:701034407@gotvdsb.ca"a>Name@EMAIL.COM</p>
+      <p><a href=701034407@gotvdsb.ca">Name@EMAIL.COM</a></p></section>
+       <section id ='Experience'>Experience</section>
+       <section id ='Education'>Education</section>
+       <section id ='Skill'>Skill</section>
+       <section id ='Interest'>Interest</section>
+       <section id ='Award'>Award</section>
      </main> 
       
     </body>
